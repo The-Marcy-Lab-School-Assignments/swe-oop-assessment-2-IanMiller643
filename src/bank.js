@@ -63,27 +63,5 @@ class Bank {
 }
 
 // TEST YOUR CODE HERE
-// Create a Bank instance
-const myBank = new Bank("First National");
-console.log(myBank); // Bank { name: "First National" }
-
-// Create BankAccount instances
-const account1 = new BankAccount("001", "Alice");
-const account2 = new BankAccount("002", "Bob");
-console.log(account1); // BankAccount { accountNumber: "001", ownerName: "Alice" }
-console.log(account2); // BankAccount { accountNumber: "002", ownerName: "Bob" }
-
-// Add accounts to the bank
-myBank.addAccount(account1);
-myBank.addAccount(account2);
-console.log(myBank.accounts);
-/* 
-[
-  BankAccount { accountNumber: "001", ownerName: "Alice" },
-  BankAccount { accountNumber: "002", ownerName: "Bob" }
-]
-*/
-
-// Perform deposits and withdrawals
 // DO NOT REMOVE
 module.exports = { BankAccount, Bank };
